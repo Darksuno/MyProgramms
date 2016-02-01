@@ -1,0 +1,21 @@
+public class Pages
+{
+    public static void main(String[] args)
+    {
+        int x1=4;
+        int x2=1;
+        int x3=2;
+        int x4=3;
+        String q = ",";
+        int i;
+        System.out.print(x1+q+x2+q+x3+q+x4+q);
+        for(i = 0; i < 25; i++)
+        {
+            x1+=4;
+            x2+=4;
+            x3+=4;
+            x4+=4;
+            System.out.print(x1+q+x2+q+x3+q+x4+q);
+        }
+    }
+}
